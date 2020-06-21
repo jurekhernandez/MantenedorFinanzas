@@ -1,10 +1,10 @@
 drop database finanzas;
 create database finanzas;
 use finanzas ;
-/*
+
 CREATE USER 'UsuarioFinanzas'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Usu4r10F1n4nc14s*2O2O';
 grant select,insert,update on finanzas.* to 'UsuarioFinanzas'@'localhost';
-*/
+
 
 CREATE TABLE IF NOT EXISTS pr_cargos(
 	id bigint(20) unsigned auto_increment primary key,
